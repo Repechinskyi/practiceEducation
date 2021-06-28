@@ -1,0 +1,78 @@
+ul {
+  list-style: none; /*убираем маркеры списка*/
+  margin: 0; /*убираем отступы*/
+  padding-left: 0; /*убираем отступы*/
+  margin-top:25px; /*делаем отступ сверху*/
+}
+a {
+  text-decoration: none; /*убираем подчеркивание текста ссылок*/
+  background:#30A8E6; /*добавляем фон к пункту меню*/
+  color:#fff; /*меняем цвет ссылок*/
+  padding:10px; /*добавляем отступ*/
+  font-family: arial; /*меняем шрифт*/
+  border-radius:4px; /*добавляем скругление*/
+  -moz-transition: all 0.3s 0.01s ease; /*делаем плавный переход*/
+  -o-transition: all 0.3s 0.01s ease;
+  -webkit-transition: all 0.3s 0.01s ease;
+}
+a:hover {
+  background:#1C85BB;/*добавляем эффект при наведении*/
+}
+li {
+  float:left; /*Размещаем список горизонтально для реализации меню*/
+  margin-right:5px; /*Добавляем отступ у пунктов меню*/
+}
+
+.footer{
+	background:rgb(40, 173, 144);
+}
+
+#stuck_container {
+		-webkit-transition: all 0.4s ease;
+		-moz-transition: all 0.4s ease;
+		-ms-transition: all 0.4s ease;
+		-o-transition: all 0.4s ease;
+		transition: all 0.4s ease;
+		z-index: 999;
+		background-color: #fff;
+		padding: 10px 0 33px;
+}
+
+	#stuck_container {
+		position: relative !important;
+		box-shadow: none;
+  }
+
+
+
+.navigation .sf-menu {
+	z-index: 990;
+	text-align: left;
+	position: relative;
+}
+
+@media only screen and (max-width: 767px) {
+	.navigation {
+		float: none !important;
+		padding: 10px 0 20px !important;
+		clear: both;
+		margin: 0;
+		min-height: 0px;
+	}
+
+    .navigation  nav{
+  	border: none !important;
+		float:none !important;
+		font:12px/15px Arial, Helvetica, sans-serif;
+		text-transform:uppercase;
+		color:#927c67;
+		margin: 0 auto;
+		padding-left: 0 !important;
+		
+	
+	}
+
+  .clear {
+    float: none !important;
+    clear: both;
+}

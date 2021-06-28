@@ -1,0 +1,12 @@
+body{
+    font: 12pt "Calibri Light";
+}
+
+table{
+    width: 48%;
+    border-spacing: 3px;
+}
+
+th{
+padding-left: 12px;
+}
